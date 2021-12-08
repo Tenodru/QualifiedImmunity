@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: Advice
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  clue: {fileID: 0}
+  analysis: {fileID: 0}
+  cultistChange: 0
+  teleportLoc: 0
+  dialogueText:
+  - name: Chief Rotini
+    portrait: {fileID: 21300000, guid: 438718c5a69285b45bceb6b9a8ef899a, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: I dunno if dear ol' me has any more wisdom to offer for a young
+      sprout like you.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Chief Rotini
+    portrait: {fileID: 21300000, guid: 438718c5a69285b45bceb6b9a8ef899a, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Just keep at it. Determination is key in this job.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: 'Thank you for the confidence, sir. It''s also nice to match a
+      face to the name. '
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Everyone looks up to you at the Academy.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Chief Rotini
+    portrait: {fileID: 21300000, guid: 438718c5a69285b45bceb6b9a8ef899a, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: It's only mannerly a chief familiarizes himself with everyone,
+      including fresh recruits.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Chief Rotini
+    portrait: {fileID: 21300000, guid: 642ab32266e4a45aa809b9c99040b470, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Keep up the good work out there, rookie. You're a special one.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  options:
+  - optionName: Salute him and head back outside.
+    nextDialogue: {fileID: 11400000, guid: 6aa77ffbde52f1f4180b41ab9f421249, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  newObjective: {fileID: 0}
+  pTransType: 0
+  dTransType: 1
+  endMission: 0
+  conclusive: 0

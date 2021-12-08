@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: yes2
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  clue: {fileID: 0}
+  analysis: {fileID: 0}
+  cultistChange: 0
+  teleportLoc: 0
+  dialogueText:
+  - name: 
+    portrait: {fileID: 0}
+    displayImage: {fileID: 0}
+    dialogueText: KABOOOOOOOOOM
+    italics: 1
+    bold: 1
+    sound: {fileID: 0}
+    character: 0
+  - name: 
+    portrait: {fileID: 0}
+    displayImage: {fileID: 0}
+    dialogueText: (Sal escapes with ease. The cave ceiling comes down, along with
+      the building above it.)
+    italics: 1
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: 
+    portrait: {fileID: 0}
+    displayImage: {fileID: 0}
+    dialogueText: (Sal reaches out to the surface, meeting Aglia who is waiting outside.)
+    italics: 1
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  options: []
+  newObjective: {fileID: 0}
+  pTransType: 0
+  dTransType: 2
+  endMission: 0
+  conclusive: 1
+  endGame: 3

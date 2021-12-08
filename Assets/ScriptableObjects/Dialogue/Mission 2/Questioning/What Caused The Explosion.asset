@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: What Caused The Explosion
+  m_EditorClassIdentifier: 
+  dialogueType: 2
+  clue: {fileID: 11400000, guid: 7516cc3739e769d4eba8fb29b03a3d6d, type: 2}
+  analysis: {fileID: 0}
+  dialogueText:
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Do you know what caused the explosion?
+    italics: 0
+    bold: 0
+  - name: Lin Guini
+    portrait: {fileID: 21300000, guid: d70eefc4e08f04ad39bd4c1720e3b780, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: 'A pressure build up in one of the marinara vats. '
+    italics: 0
+    bold: 0
+  - name: Lin Guini
+    portrait: {fileID: 21300000, guid: d70eefc4e08f04ad39bd4c1720e3b780, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Usually the pressure release valve would alert us to the problem
+      but we got no such warning.
+    italics: 0
+    bold: 0
+  options:
+  - optionName: When were these vats last inspected?
+    nextDialogue: {fileID: 11400000, guid: 38fb577826461d941b94d59a4ae5b96d, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  - optionName: Is it possible the vat was sabotaged?
+    nextDialogue: {fileID: 11400000, guid: be152dc6a4a45f2468b575c24f9cc6e5, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  - optionName: Was anyone else present at the time of the explosion?
+    nextDialogue: {fileID: 11400000, guid: bfdf389ddbac82c4c8037705113b58c0, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  - optionName: '"Alright, thanks for your cooperation."'
+    nextDialogue: {fileID: 11400000, guid: de135b9c8f6d7d348b7e2f806285812c, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  newObjective: {fileID: 0}
+  pTransType: 0
+  dTransType: 1
+  endMission: 0
+  conclusive: 0

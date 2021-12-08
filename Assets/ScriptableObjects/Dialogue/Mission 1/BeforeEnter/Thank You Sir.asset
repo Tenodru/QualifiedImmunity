@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: Thank You Sir
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  clue: {fileID: 0}
+  analysis: {fileID: 0}
+  dialogueText:
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Sorry sir, I'm just a little excited.
+    italics: 0
+    bold: 0
+  - name: Rickman
+    portrait: {fileID: 21300000, guid: 9584b7d9a0b7749e786efcee52ff969f, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Don't mention it Troppo. Every rookie gets first assignment fever.
+    italics: 0
+    bold: 0
+  - name: Rickman
+    portrait: {fileID: 21300000, guid: 9584b7d9a0b7749e786efcee52ff969f, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: But you'd better lose the smile before Gourdough sees it. I doubt
+      he's in the mood.
+    italics: 0
+    bold: 0
+  options:
+  - optionName: '"Good idea."'
+    nextDialogue: {fileID: 11400000, guid: 049408df130df9b4f9803990ec3f3fd4, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  newObjective: {fileID: 0}
+  pTransType: 0
+  dTransType: 1
+  endMission: 0
+  conclusive: 0

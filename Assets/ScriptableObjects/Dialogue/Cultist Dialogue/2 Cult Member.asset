@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: 2 Cult Member
+  m_EditorClassIdentifier: 
+  dialogueType: 7
+  clue: {fileID: 0}
+  analysis: {fileID: 0}
+  cultistChange: 0
+  dialogueText:
+  - name: La Sagnia Member 2
+    portrait: {fileID: 21300000, guid: f1982790e709c4a7d9303576d5144e5d, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: This group has been so gracious to me. I can't imagine my life
+      without it.
+    italics: 0
+    bold: 0
+  options:
+  - optionName: '"What do you mean?"'
+    nextDialogue: {fileID: 11400000, guid: cba764a3642da974183ab47373848152, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  - optionName: '"Yeah, me too."'
+    nextDialogue: {fileID: 11400000, guid: d59549e9d2c0d934abb11f4d77302013, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  newObjective: {fileID: 0}
+  pTransType: 0
+  dTransType: 1
+  endMission: 0
+  conclusive: 0

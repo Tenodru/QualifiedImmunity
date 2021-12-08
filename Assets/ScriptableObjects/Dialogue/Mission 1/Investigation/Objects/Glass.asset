@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: Glass
+  m_EditorClassIdentifier: 
+  dialogueType: 2
+  clue: {fileID: 11400000, guid: d0a1ca76232d43c45b822faed462ce80, type: 2}
+  analysis: {fileID: 0}
+  cultistChange: 0
+  dialogueText:
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: While stepping through the chaos in the building you notice a strange
+      sound, or lack of sound more aptly.
+    italics: 1
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: 'There appears to be very little glass inside the display area.
+      In fact, most of it seems to have landed on the outside area of the building.
+
+'
+    italics: 1
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  options: []
+  newObjective: {fileID: 0}
+  pTransType: 0
+  dTransType: 2
+  endMission: 0
+  conclusive: 0

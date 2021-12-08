@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: Business Schedule
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  clue: {fileID: 0}
+  analysis: {fileID: 0}
+  cultistChange: 0
+  teleportLoc: 0
+  dialogueText:
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 21300000, guid: 97a428263f9bc40d29c773a57dfc356b, type: 3}
+    dialogueText: Huh...
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Aglia
+    portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: I brought that because I have proof that some of the events don't
+      align.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Aglia
+    portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
+    displayImage: {fileID: 21300000, guid: db15aea8e298e48c2a0e401767acea6c, type: 3}
+    dialogueText: Look here. He tells me he has nothing scheduled.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Aglia
+    portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: But on the schedule he has secret arranged meetings at the factory
+      and after-hour meetings at Colander Plaza.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Aglia
+    portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Something about a...pasta club?
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  options:
+  - optionName: Look at more evidence
+    nextDialogue: {fileID: 11400000, guid: 750a8b47f352dfc4f887d0440f2b9a26, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  newObjective: {fileID: 0}
+  pTransType: 0
+  dTransType: 1
+  endMission: 0
+  conclusive: 0

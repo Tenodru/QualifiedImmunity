@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: Painting
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  clue: {fileID: 0}
+  analysis: {fileID: 0}
+  cultistChange: 0
+  teleportLoc: 0
+  npcTagD: 
+  npcTagS: 
+  dialogueText:
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Ms Pane, is this painting normally crooked?
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Aglia
+    portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: No, it definitely isn't.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 21300000, guid: 91f52ab939e424688a3c1cc5f17c4755, type: 3}
+    dialogueText: When you investigate the painting further, you discover you are
+      able to pull the paintning away from the wall as if it was a door.
+    italics: 1
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 21300000, guid: dcddc6d69ba8645c4bd7aabc81f4d93a, type: 3}
+    dialogueText: Moving the painting reveals a safe hidden behind in a small compartment.
+    italics: 1
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  options:
+  - optionName: 
+    nextDialogue: {fileID: 11400000, guid: d9321f8b2ce067f45be7b0671d8afc3e, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  newObjective: {fileID: 0}
+  pTransType: 0
+  dTransType: 0
+  endMission: 0
+  conclusive: 0
+  endGame: 0

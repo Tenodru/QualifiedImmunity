@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e77f44ff221efa54fa509c701185563b, type: 3}
+  m_Name: HandsAnalysis
+  m_EditorClassIdentifier: 
+  options:
+  - clue: {fileID: 11400000, guid: 06ebe33cbc1feaf419d42efb30bf8ae1, type: 2}
+    nextDialogue: {fileID: 11400000, guid: e38010cbb8f58d644a48041b7f3b1a27, type: 2}
+  specialGiveUp: {fileID: 11400000, guid: 11825a07a0e77ce47a0f7c15ddd9651e, type: 2}

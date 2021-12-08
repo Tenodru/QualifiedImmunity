@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: Ending
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  clue: {fileID: 0}
+  analysis: {fileID: 0}
+  cultistChange: 0
+  teleportLoc: 0
+  dialogueText:
+  - name: Chief Rotini
+    portrait: {fileID: 21300000, guid: 438718c5a69285b45bceb6b9a8ef899a, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: I'd stay clear of her. She's pretty well-known around the station
+      for bringing in false claims.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Shouldn't we help everyone, sir?
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Chief Rotini
+    portrait: {fileID: 21300000, guid: 438718c5a69285b45bceb6b9a8ef899a, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: We've tried to help her, but nothin' she had brought in was worth
+      investigatin. All wastes of time.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Chief Rotini
+    portrait: {fileID: 21300000, guid: 0693dc16bf1364405a903edfe7e7273c, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: You'll heed me right, son?
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Yes, sir.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  options: []
+  newObjective: {fileID: 11400000, guid: 943b53aa2794dff4d9a1041f447f662e, type: 2}
+  pTransType: 0
+  dTransType: 2
+  endMission: 0
+  conclusive: 0

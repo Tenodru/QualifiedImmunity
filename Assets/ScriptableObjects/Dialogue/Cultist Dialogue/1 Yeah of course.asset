@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: 1 Yeah of course
+  m_EditorClassIdentifier: 
+  dialogueType: 7
+  clue: {fileID: 0}
+  analysis: {fileID: 0}
+  cultistChange: 0
+  dialogueText:
+  - name: La Sagnia Member 1
+    portrait: {fileID: 21300000, guid: 01cc426fea8b54256881ee415b45ff7e, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Can you believe our deity The Flying Spaghetti Monster will finally
+      be reincarnated??
+    italics: 0
+    bold: 0
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Yes...
+    italics: 0
+    bold: 0
+  - name: La Sagnia Member 1
+    portrait: {fileID: 21300000, guid: 01cc426fea8b54256881ee415b45ff7e, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Do the cheer with me! You start!
+    italics: 0
+    bold: 0
+  options:
+  - optionName: '"All hail The Flying Spaghetti Monster!"'
+    nextDialogue: {fileID: 11400000, guid: 928b5acda41b32944ba918906a3df717, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  - optionName: '"Long live The Flying Spaghetti Monster!"'
+    nextDialogue: {fileID: 11400000, guid: d2fcaf1e443aad3458b878f3db6e62f8, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  newObjective: {fileID: 0}
+  pTransType: 0
+  dTransType: 1
+  endMission: 0
+  conclusive: 0

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: Ending A-2
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  clue: {fileID: 0}
+  analysis: {fileID: 0}
+  cultistChange: 0
+  teleportLoc: 0
+  npcTagD: 
+  npcTagS: 
+  dialogueText:
+  - name: Rickman
+    portrait: {fileID: 21300000, guid: e769986f2a1f546c08fed72bdf6de70c, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Be careful getting caught up in those kind of thoughts rookie.
+      The simplest answer is most often the right one. Especially in Colander City.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: (Heeding Rickman's words, you remain silent the rest of the drive.
+      Still though, something seems off, you just can't put your finger on it.)
+    italics: 1
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  options: []
+  newObjective: {fileID: 0}
+  pTransType: 0
+  dTransType: 2
+  endMission: 1
+  conclusive: 0
+  endGame: 0

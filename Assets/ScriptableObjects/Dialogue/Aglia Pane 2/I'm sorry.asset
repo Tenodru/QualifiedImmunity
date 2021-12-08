@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: I'm sorry
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  clue: {fileID: 0}
+  analysis: {fileID: 0}
+  cultistChange: 0
+  teleportLoc: 0
+  dialogueText:
+  - name: Aglia
+    portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: You're the only one who has even bothered to listen to me and offer
+      a solution.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Aglia
+    portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: I thought the police were supposed to help people.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: The police exists to protect people. That's the mantra at the Academy.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Aglia
+    portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Then protect me. This is my last chance to find some peace in my
+      life.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: She's right. It's my duty as a policeman to protect people, that
+      includes her.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  options:
+  - optionName: '"Ok, let''s look at this evidence."'
+    nextDialogue: {fileID: 11400000, guid: 356861079644386449948bf829ce403c, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  newObjective: {fileID: 0}
+  pTransType: 0
+  dTransType: 1
+  endMission: 0
+  conclusive: 0

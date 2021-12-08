@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: 5 In it for me
+  m_EditorClassIdentifier: 
+  dialogueType: 7
+  clue: {fileID: 0}
+  analysis: {fileID: 0}
+  cultistChange: 1
+  dialogueText:
+  - name: La Sagnia Member 5
+    portrait: {fileID: 21300000, guid: 63461fbd451804160acd9600fc6ccd60, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Geez... if you wanted a cut, you could just say so.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+  - name: La Sagnia Member 5
+    portrait: {fileID: 21300000, guid: 63461fbd451804160acd9600fc6ccd60, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: If this flying thing is actually real, I'll pay you half for keeping
+      my cover.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+  - name: La Sagnia Member 5
+    portrait: {fileID: 21300000, guid: 63461fbd451804160acd9600fc6ccd60, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Now shoo, you're making me look suspicious.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+  options: []
+  newObjective: {fileID: 0}
+  pTransType: 0
+  dTransType: 2
+  endMission: 0
+  conclusive: 0

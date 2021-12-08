@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e77f44ff221efa54fa509c701185563b, type: 3}
+  m_Name: GourdoughAnalysis
+  m_EditorClassIdentifier: 
+  options:
+  - clue: {fileID: 11400000, guid: fec51fa780bec6442bbbd74de1868f56, type: 2}
+    nextDialogue: {fileID: 11400000, guid: e63f1d42238e9a5448971000fa7689ad, type: 2}
+  - clue: {fileID: 11400000, guid: a982c2b5efb65b34d8cff0e3d9fe4366, type: 2}
+    nextDialogue: {fileID: 11400000, guid: f82b36fac52e6344a8d0416539cae7e0, type: 2}
+  - clue: {fileID: 11400000, guid: d34530cf885f21646b984d5e7d11f3dd, type: 2}
+    nextDialogue: {fileID: 11400000, guid: bdd83562bda5b5c44ae94a6bb330f194, type: 2}

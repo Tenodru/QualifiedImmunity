@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: Shouldn't be here
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  clue: {fileID: 0}
+  analysis: {fileID: 0}
+  cultistChange: 0
+  teleportLoc: 0
+  dialogueText:
+  - name: Aglia
+    portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
+    displayImage: {fileID: 21300000, guid: f7f5f700ad65c4a2da03556741f982c2, type: 3}
+    dialogueText: I brought some evidence, and I thought we could look through it
+      together!
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: I have my orders to follow. You've got to go.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Aglia
+    portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: He got to you...didn't he?
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Aglia
+    portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: More reason for you to look at this. Please...I really need your
+      help.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Chief Rotini's voice echoes in my head, but I can't ignore my duty
+      to help everyone.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  options:
+  - optionName: '"Alright, I''ll take a look"'
+    nextDialogue: {fileID: 11400000, guid: 356861079644386449948bf829ce403c, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  - optionName: '"I''m sorry, but I can''t help you."'
+    nextDialogue: {fileID: 11400000, guid: c853ebca5d991224dbf0433029c1d84a, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  newObjective: {fileID: 0}
+  pTransType: 0
+  dTransType: 1
+  endMission: 0
+  conclusive: 0

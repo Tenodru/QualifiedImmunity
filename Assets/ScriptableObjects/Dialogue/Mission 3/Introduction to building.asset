@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: Introduction to building
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  clue: {fileID: 0}
+  analysis: {fileID: 0}
+  cultistChange: 0
+  teleportLoc: 0
+  dialogueText:
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: So your boyfriend owns Colander Plaza?
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Aglia
+    portrait: {fileID: 21300000, guid: b307e6382506b41b7ba79b765378dda2, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Yes, and I'm forced out of the building at 7pm on the dot every
+      Tuesday.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Aglia
+    portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: There's got to be something in here. Some sort of clue. Let's get
+      looking.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  options: []
+  newObjective: {fileID: 0}
+  pTransType: 0
+  dTransType: 2
+  endMission: 0
+  conclusive: 0

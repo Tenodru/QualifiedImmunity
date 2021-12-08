@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: 5 Open Door 1
+  m_EditorClassIdentifier: 
+  dialogueType: 8
+  clue: {fileID: 0}
+  analysis: {fileID: 0}
+  cultistChange: 0
+  teleportLoc: 2
+  npcTagD: 
+  npcTagS: 
+  dialogueText:
+  - name: ???
+    portrait: {fileID: 21300000, guid: b353f4894c33c443a89008199a1e90bd, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: I expect you to get it sorted.
+    italics: 0
+    bold: 0
+    sound: {fileID: 8300000, guid: 7542ca0f2fd2d774bb2fe10a2f126d31, type: 3}
+    character: 0
+  options:
+  - optionName: Who...?
+    nextDialogue: {fileID: 11400000, guid: c6a695ce8aecfd646a1aba9d8e52b73f, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  newObjective: {fileID: 0}
+  pTransType: 2
+  dTransType: 1
+  endMission: 0
+  conclusive: 0
+  endGame: 0

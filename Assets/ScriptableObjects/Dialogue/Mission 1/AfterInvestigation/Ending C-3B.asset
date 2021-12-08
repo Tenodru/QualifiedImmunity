@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: Ending C-3B
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  clue: {fileID: 0}
+  analysis: {fileID: 0}
+  cultistChange: 0
+  teleportLoc: 0
+  dialogueText:
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: True, but the alarm system was set off by the window shattering.
+      Which means the robbers would have had to get in earlier and do so without
+      setting of the alarm...Unless they were let in!
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Rickman
+    portrait: {fileID: 21300000, guid: e769986f2a1f546c08fed72bdf6de70c, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Are you seriously suggesting that Christensen let the robbers into
+      the bakery, they all grabbed the money, then broke the window to make it looked
+      like forced entry?
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Yes, thats exactly what I'm suggesting.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Rickman
+    portrait: {fileID: 21300000, guid: fb33c3021659b465290d1b5a12fd45f9, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Rookie, you got a great imagination I'll give you that.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: (He can laugh all he wants but your theory is sound. We'll just
+      see who's laughing when the case is over.)
+    italics: 1
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  options: []
+  newObjective: {fileID: 0}
+  pTransType: 0
+  dTransType: 2
+  endMission: 1
+  conclusive: 0

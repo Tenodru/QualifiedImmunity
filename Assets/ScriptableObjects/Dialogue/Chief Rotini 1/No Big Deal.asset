@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: No Big Deal
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  clue: {fileID: 0}
+  analysis: {fileID: 0}
+  cultistChange: 0
+  teleportLoc: 0
+  dialogueText:
+  - name: Chief Rotini
+    portrait: {fileID: 21300000, guid: 642ab32266e4a45aa809b9c99040b470, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: That's the spirit! You're lookin' like a real contender, son.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Chief Rotini
+    portrait: {fileID: 21300000, guid: 438718c5a69285b45bceb6b9a8ef899a, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: I like ya.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: It's an honor, sir, to even be in your presence.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: A compliment is an incredible previlege.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Chief Rotini
+    portrait: {fileID: 21300000, guid: 438718c5a69285b45bceb6b9a8ef899a, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Alright, son. I just hope I live up to your expectations.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Chief Rotini
+    portrait: {fileID: 21300000, guid: 642ab32266e4a45aa809b9c99040b470, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: It's quite a burden you're puttin' on my shoulders.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Sir, may I ask...
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  options:
+  - optionName: '"Why did you want to see me?"'
+    nextDialogue: {fileID: 11400000, guid: 76711564ccd672e4bb46866a7765ef75, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  - optionName: '"Do you have any advice for a new rookie like me?"'
+    nextDialogue: {fileID: 11400000, guid: b59622f2abb17494facc4ee221668ec5, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  newObjective: {fileID: 0}
+  pTransType: 0
+  dTransType: 1
+  endMission: 0
+  conclusive: 0

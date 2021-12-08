@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e77f44ff221efa54fa509c701185563b, type: 3}
+  m_Name: ChristensenAnalysis
+  m_EditorClassIdentifier: 
+  options:
+  - clue: {fileID: 11400000, guid: 9ef14e3946582744cbc2ffa37322408f, type: 2}
+    nextDialogue: {fileID: 11400000, guid: 5f5a6b628d85eb547ae04ebc827dd538, type: 2}
+  - clue: {fileID: 11400000, guid: a81c1b9a4af06ff4196db5fcd32fb1ac, type: 2}
+    nextDialogue: {fileID: 11400000, guid: 309d29fc098412443be5d4e371b77054, type: 2}
+  - clue: {fileID: 11400000, guid: d0a1ca76232d43c45b822faed462ce80, type: 2}
+    nextDialogue: {fileID: 11400000, guid: 399bf351f85318b499ea0d9fd3c7b6be, type: 2}
+  specialGiveUp: {fileID: 0}

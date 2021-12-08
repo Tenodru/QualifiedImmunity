@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: Final Showdown
+  m_EditorClassIdentifier: 
+  dialogueType: 8
+  clue: {fileID: 0}
+  analysis: {fileID: 0}
+  cultistChange: 0
+  teleportLoc: 4
+  dialogueText:
+  - name: Don Pomodoro
+    portrait: {fileID: 21300000, guid: b353f4894c33c443a89008199a1e90bd, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Now that we've all assembled here, let's get started.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Chief Rotini
+    portrait: {fileID: 21300000, guid: 438718c5a69285b45bceb6b9a8ef899a, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: All hail the Flying Spaghetti Monster.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: That's Don Pomodoro, Aglia's boyfriend and...
+    italics: 1
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Chief Rotini?!?!
+    italics: 1
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: 
+    portrait: {fileID: 0}
+    displayImage: {fileID: 0}
+    dialogueText: You have an escape plan, but they don't, along with the rest of
+      the cult members. The explosion will bury all of them.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  - name: 
+    portrait: {fileID: 0}
+    displayImage: {fileID: 0}
+    dialogueText: Do you choose to blow up the place anyway, potentially saving the
+      rest of Colander City, but be responsible for the lives of those in this cave?
+    italics: 0
+    bold: 1
+    sound: {fileID: 0}
+    character: 0
+  options:
+  - optionName: Yes.
+    nextDialogue: {fileID: 11400000, guid: d0a49b50d93afbc49a0da99bcd4f9b84, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  - optionName: No.
+    nextDialogue: {fileID: 11400000, guid: 626e1a82406f3cb488c7a1b1089748ef, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  newObjective: {fileID: 0}
+  pTransType: 0
+  dTransType: 1
+  endMission: 0
+  conclusive: 0
+  endGame: 0

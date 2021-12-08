@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: Boyfriend2
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  clue: {fileID: 0}
+  analysis: {fileID: 0}
+  cultistChange: 0
+  dialogueText:
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: 'Could you tell me about your relatioship with your boyfriend? '
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 1
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: How long have you been together?
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 1
+  - name: Aglia
+    portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: 7 years. I was a mere secretary before becoming his assistant.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 3
+  - name: Aglia
+    portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Our relationship started not long after. We spent a lot of time
+      together and got a lot closer.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 3
+  - name: Aglia
+    portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: He used to be very caring and considerate.. made me feel safe,
+      at home...
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 3
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Clearly, he doesn't make you feel that way anymore.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 1
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: How recently did he start acting differently?
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 1
+  - name: Aglia
+    portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: 2 years now. Everyone I've talked to says I'm being paranoid.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 3
+  - name: Aglia
+    portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: That he's simply being attentive and overly caring.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 3
+  - name: Aglia
+    portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: What can be done about my situation?
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 3
+  options:
+  - optionName: Tell her the harsh truth
+    nextDialogue: {fileID: 11400000, guid: 26d532f5d03d2414a94d9567ca15d204, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  - optionName: Tell her a potential alternative
+    nextDialogue: {fileID: 11400000, guid: 6c9f33bfc1619704998cd36f66985d75, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  newObjective: {fileID: 0}
+  pTransType: 0
+  dTransType: 1
+  endMission: 0
+  conclusive: 0

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: 5 Sorry didn't
+  m_EditorClassIdentifier: 
+  dialogueType: 7
+  clue: {fileID: 0}
+  analysis: {fileID: 0}
+  cultistChange: 0
+  dialogueText:
+  - name: La Sagnia Member 5
+    portrait: {fileID: 21300000, guid: 63461fbd451804160acd9600fc6ccd60, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Look, I'm only here for the money, okay?
+    italics: 0
+    bold: 0
+  - name: La Sagnia Member 5
+    portrait: {fileID: 21300000, guid: 63461fbd451804160acd9600fc6ccd60, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: They were hiring for some meeting and I took it. I don't understand
+      this whole lasagna and flying monster stuff.
+    italics: 0
+    bold: 0
+  - name: La Sagnia Member 5
+    portrait: {fileID: 21300000, guid: 63461fbd451804160acd9600fc6ccd60, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Don't rat me out, 'kay?
+    italics: 0
+    bold: 0
+  options:
+  - optionName: '"What''s in it for me?"'
+    nextDialogue: {fileID: 11400000, guid: d6cfabd4e9b47fd4389b54dd32c46b21, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  - optionName: '"Ok. I''ll leave you alone."'
+    nextDialogue: {fileID: 11400000, guid: 2045149968904c549881416f9c2fc7a0, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  newObjective: {fileID: 0}
+  pTransType: 0
+  dTransType: 1
+  endMission: 0
+  conclusive: 0

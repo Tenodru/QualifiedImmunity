@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: Debris2
+  m_EditorClassIdentifier: 
+  dialogueType: 2
+  clue: {fileID: 11400000, guid: c7e0b004e6e76ee4a87fe95568f4f285, type: 2}
+  analysis: {fileID: 0}
+  cultistChange: 0
+  teleportLoc: 0
+  npcTagD: 
+  npcTagS: 
+  dialogueText:
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 21300000, guid: cafa7b32f6b3b4b5c84ad30936087a2f, type: 3}
+    dialogueText: It seems to be a half burned receipt for a restaurant next to Colander
+      Plaza.
+    italics: 1
+    bold: 0
+    sound: {fileID: 0}
+    character: 0
+  options: []
+  newObjective: {fileID: 0}
+  pTransType: 0
+  dTransType: 2
+  endMission: 0
+  conclusive: 0
+  endGame: 0

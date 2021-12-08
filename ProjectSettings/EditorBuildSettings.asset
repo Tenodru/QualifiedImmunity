@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/BakeryMission.unity
+    guid: 50ca371e46d62fb4088a6ea729573003
+  - enabled: 1
+    path: Assets/Scenes/PoliceStation.unity
+    guid: bb13b512313f2e04caa8d5f6361c4147
+  - enabled: 1
+    path: Assets/Scenes/FactoryMission.unity
+    guid: e9bd0f2ec72f72e4eaae18d8b307e3b8
+  - enabled: 1
+    path: Assets/Scenes/ScraperMission.unity
+    guid: 11458570631493847b1d3336ce671afe
+  - enabled: 1
+    path: Assets/Scenes/EndingOk.unity
+    guid: 5b1f336f7db6d944882e1eeaf93f1651
+  - enabled: 1
+    path: Assets/Scenes/EndingGood.unity
+    guid: a61658c952641c3489224179f064d798
+  - enabled: 1
+    path: Assets/Scenes/EndingBad.unity
+    guid: 1681a664f90ecf241b059e0884315f1c
+  m_configObjects: {}

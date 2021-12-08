@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
+  m_Name: Ask Part 1
+  m_EditorClassIdentifier: 
+  dialogueType: 0
+  clue: {fileID: 0}
+  analysis: {fileID: 0}
+  cultistChange: 0
+  teleportLoc: 0
+  npcTagD: 
+  npcTagS: 
+  dialogueText:
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: What's next, Officer Rickman?
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 1
+  - name: Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: A patrol around the city? Another call-in?
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 1
+  - name: Rickman
+    portrait: {fileID: 21300000, guid: 9584b7d9a0b7749e786efcee52ff969f, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: You get to do the best work of all.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 2
+  - name: Rickman
+    portrait: {fileID: 21300000, guid: fb33c3021659b465290d1b5a12fd45f9, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: Desk duty!
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 2
+  - name: Rickman
+    portrait: {fileID: 21300000, guid: 9584b7d9a0b7749e786efcee52ff969f, type: 3}
+    displayImage: {fileID: 0}
+    dialogueText: I appreciate the enthusiasm though, rookie.
+    italics: 0
+    bold: 0
+    sound: {fileID: 0}
+    character: 2
+  options:
+  - optionName: Sigh...
+    nextDialogue: {fileID: 11400000, guid: 1b38f8b66b3a73843aa118898d15e399, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
+  newObjective: {fileID: 0}
+  pTransType: 0
+  dTransType: 1
+  endMission: 0
+  conclusive: 0
+  endGame: 0
