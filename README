@@ -1,0 +1,12 @@
+Qualified Immunity README
+
+Qualified Immunity is narrative-based 2D game where players take control of a new recruit, Sal Troppo, in the Colander City Police Department and investigate crimes taking place. The code created for this game is meant to facilitate the goal of immersing players within this concept. Our code allows for players to interact with NPCs and the environment to collect clues. Players can then use these clues during analysis sections to support their argument and successfully accuse a suspect. The following are highlights of our code that are essential to the game.
+
+Scriptable Objects (AnalysisInfo, EntryInfo, DialogueInfo, ObjectiveInfo, MissionInfo)
+We have 5 different scriptable objects that allow us to create bite-sized objects that can be passed around through our other scripts to be used. For example, EntryInfo contains info for clues the player can collect, such as their name and description. We can then pass this EntryInfo as a parameter so that the notepad correctly displays the clue’s name and description when it is being selected.
+
+DialogueManager
+The Dialogue Manager is the most important script we have. It determines how the dialogue is presented and takes DialogueInfo objects as the main parameter. The DialogueInfo objects are created to be very modular, so that our narrative developers are able to insert their dialogue into the game without too much resistance. Our Dialogue Manager then takes these dialogue objects and displays the dialogue segments when loaded. Each DialogueInfo object has many parameters that allow for the dialogue to be customized such as changing who is speaking, the character portrait, the image displayed, and unique functions that can teleport the player around, give the player clues, or trigger certain effects during analysis portions.
+
+MenuManager
+The MenuManager controls most of the UI elements in the game. For example, whenever the player receives the clue, the Menu Manager adds the clue to the notepad so that the player can view it later. The menu manager also controls the transition panel for various effects and more.
