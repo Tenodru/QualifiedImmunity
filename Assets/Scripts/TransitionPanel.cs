@@ -11,6 +11,8 @@ public class TransitionPanel : MonoBehaviour
     public bool endingScreen = false;
     public string playOnStart = "";
 
+    public AudioClip badgeSound;
+
 
     private void Start()
     {
@@ -28,6 +30,10 @@ public class TransitionPanel : MonoBehaviour
 
     public void Animate(string type)
     {
+        if (type == "BadgeIn")
+        {
+            AudioHandler.current.PlaySound(badgeSound);
+        }
         GetComponent<Animator>().SetTrigger(type);
     }
 

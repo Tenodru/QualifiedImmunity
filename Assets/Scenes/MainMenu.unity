@@ -1512,6 +1512,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   endingScreen: 0
   playOnStart: FadeOut
+  badgeSound: {fileID: 0}
 --- !u!95 &937560339
 Animator:
   serializedVersion: 3
@@ -2164,6 +2165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   endingScreen: 0
   playOnStart: 
+  badgeSound: {fileID: 8300000, guid: 63d6809f82678634e84e8e3d8c1ebdbd, type: 3}
 --- !u!95 &1189922014
 Animator:
   serializedVersion: 3

@@ -4093,8 +4093,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 797875589
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 87b06b2ba4c6b49938d5cd9a7c9afd75, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5873,7 +5873,7 @@ PrefabInstance:
     - target: {fileID: 800258186795816434, guid: 48c6d3d422381b943a5fe83c5451c2cc,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 800258186795816435, guid: 48c6d3d422381b943a5fe83c5451c2cc,
         type: 3}
@@ -5958,7 +5958,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   left: 0
   right: 0
-  sortOrderDiff: 1
+  sortOrderDiff: 2
   player: {fileID: 0}
   alwaysBehind: []
 --- !u!60 &1273649227
@@ -5986,11 +5986,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.6983648, y: -2.0775483}
-      - {x: -1.0860687, y: -4.516645}
-      - {x: 1.0207257, y: -4.5104847}
-      - {x: 1.0108507, y: -4.422225}
-      - {x: 0.6640609, y: -2.0244298}
+    - - {x: -0.5033727, y: -3.5457697}
+      - {x: -1.0860687, y: -4.275765}
+      - {x: 1.135426, y: -4.315487}
+      - {x: 1.2173173, y: -4.1469336}
+      - {x: 0.6067031, y: -3.5270624}
 --- !u!114 &1273649228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6642,7 +6642,7 @@ PrefabInstance:
     - target: {fileID: 800258186795816434, guid: 48c6d3d422381b943a5fe83c5451c2cc,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 800258186795816435, guid: 48c6d3d422381b943a5fe83c5451c2cc,
         type: 3}
@@ -6727,7 +6727,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   left: 0
   right: 0
-  sortOrderDiff: 1
+  sortOrderDiff: 2
   player: {fileID: 0}
   alwaysBehind: []
 --- !u!60 &1368996661
@@ -6755,11 +6755,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.6983648, y: -2.0775483}
-      - {x: -1.0860687, y: -4.516645}
-      - {x: 1.0207257, y: -4.5104847}
-      - {x: 1.0108507, y: -4.422225}
-      - {x: 0.6640609, y: -2.0244298}
+    - - {x: -0.45896202, y: -3.418199}
+      - {x: -1.1052262, y: -4.229363}
+      - {x: 1.2122464, y: -4.318963}
+      - {x: 1.2119462, y: -4.211551}
+      - {x: 0.6257537, y: -3.432113}
 --- !u!114 &1368996662
 MonoBehaviour:
   m_ObjectHideFlags: 0
