@@ -46,8 +46,8 @@ public class SceneLoader : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(gameObject);
-        DontDestroyOnLoad(loadingScreen);
+        DontDestroyOnLoad(gameObject.transform.parent);
+        //DontDestroyOnLoad(loadingScreen);
         canvasGroup.alpha = 1f;
         loadingScreen.SetActive(false);
     }
@@ -89,14 +89,18 @@ public class SceneLoader : MonoBehaviour
     /// Loads the specified scene.
     /// </summary>
     /// <param name="sceneName"></param>
-    public void LoadScene (string sceneName)
+    public void LoadScene(string sceneName, bool noScreen = false)
     {
-        AudioHandler.current.PlaySound(sound);
         StartCoroutine(Timer(x => AudioHandler.current.StopMusic(), 1f));
-        StartCoroutine(Timer(x => TransitionPanel.current.Animate("FadeIn"), 1f));
-        StartCoroutine(Timer(x => TransitionPanel.current.Animate("FadeOut"), 2f));
-        StartCoroutine(Timer(x => StartCoroutine(StartLoad(sceneName, true)), 2f));
-        if (sceneName == "PoliceStation")
+        if (!noScreen)
+        {
+            AudioHandler.current.PlaySound(sound);
+            StartCoroutine(Timer(x => TransitionPanel.current.Animate("FadeIn"), 1f));
+            StartCoroutine(Timer(x => TransitionPanel.current.Animate("FadeOut"), 2f));
+            StartCoroutine(Timer(x => StartCoroutine(StartLoad(sceneName, true)), 2f));
+        }
+        StartCoroutine(Timer(x => SceneManager.LoadScene(sceneName), 2f));
+        if (sceneName == "PoliceStation" || sceneName == "EndingOk" || sceneName == "EndingGood" || sceneName == "EndingBad")
         {
             StartCoroutine(Timer(x => AudioHandler.current.PlayMusic(AudioHandler.current.policeStationMusic), 2.1f));
         } else

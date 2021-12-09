@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
   m_Name: NeutralEnd1
   m_EditorClassIdentifier: 
-  dialogueType: 0
+  dialogueType: 11
   clue: {fileID: 0}
   analysis: {fileID: 0}
   cultistChange: 0

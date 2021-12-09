@@ -16,6 +16,10 @@ MonoBehaviour:
   clue: {fileID: 0}
   analysis: {fileID: 0}
   cultistChange: 0
+  teleportLoc: 0
+  npcTagD: 
+  npcTagS: 
+  dialogueType2: 0
   dialogueText:
   - name: La Sagnia Member 1
     portrait: {fileID: 21300000, guid: 01cc426fea8b54256881ee415b45ff7e, type: 3}
@@ -24,18 +28,24 @@ MonoBehaviour:
       be reincarnated??
     italics: 0
     bold: 0
+    sound: {fileID: 0}
+    character: 0
   - name: Sal
     portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
     displayImage: {fileID: 0}
     dialogueText: Yes...
     italics: 0
     bold: 0
+    sound: {fileID: 0}
+    character: 0
   - name: La Sagnia Member 1
     portrait: {fileID: 21300000, guid: 01cc426fea8b54256881ee415b45ff7e, type: 3}
     displayImage: {fileID: 0}
     dialogueText: Do the cheer with me! You start!
     italics: 0
     bold: 0
+    sound: {fileID: 0}
+    character: 0
   options:
   - optionName: '"All hail The Flying Spaghetti Monster!"'
     nextDialogue: {fileID: 11400000, guid: 928b5acda41b32944ba918906a3df717, type: 2}
@@ -52,3 +62,4 @@ MonoBehaviour:
   dTransType: 1
   endMission: 0
   conclusive: 0
+  endGame: 0

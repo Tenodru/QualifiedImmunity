@@ -42,7 +42,7 @@ public class DialogueInfo : ScriptableObject
 {
     public enum DialogueTransitionType { Automatic, Manual, Exit }
     public enum PanelTransitionType { None, FadeIn, FadeOut, FadeInAndOut }
-    public enum DialogueType { Normal, ObjectiveRequirement, Clue, StartReview, Analysis, Accuse, IntermissionEnd, CultistDetection, Teleport, DisappearNPC, ShowNPC , Credits }
+    public enum DialogueType { Normal, ObjectiveRequirement, Clue, StartReview, Analysis, Accuse, IntermissionEnd, CultistDetection, Teleport, DisappearNPC, ShowNPC , Credits, DisableIcon }
 
     public DialogueType dialogueType = DialogueType.Normal;
 
@@ -65,6 +65,11 @@ public class DialogueInfo : ScriptableObject
     [DrawIf("dialogueType", DialogueType.ShowNPC, ComparisonType.Equals)]
     [Tooltip("The tag on the NPC you wish to show.")]
     public string npcTagS;
+
+    public DialogueType dialogueType2 = DialogueType.Normal;
+    [DrawIf("dialogueType2", DialogueType.DisableIcon, ComparisonType.Equals)]
+    [Tooltip("The tag on the icon.")]
+    public string iconTag;
 
     public List<DialogueSegment> dialogueText;
 

@@ -16,6 +16,11 @@ MonoBehaviour:
   clue: {fileID: 0}
   analysis: {fileID: 0}
   cultistChange: 0
+  teleportLoc: 0
+  npcTagD: 
+  npcTagS: 
+  dialogueType2: 12
+  iconTag: TalkIcon5
   dialogueText:
   - name: La Sagnia Member 5
     portrait: {fileID: 21300000, guid: 63461fbd451804160acd9600fc6ccd60, type: 3}
@@ -23,6 +28,8 @@ MonoBehaviour:
     dialogueText: What're you lookin' at?
     italics: 0
     bold: 0
+    sound: {fileID: 0}
+    character: 0
   options:
   - optionName: '"Sorry, didn''t mean to bother you."'
     nextDialogue: {fileID: 11400000, guid: b80c4787230d8c14fa4ead1f270dea87, type: 2}
@@ -39,3 +46,4 @@ MonoBehaviour:
   dTransType: 1
   endMission: 0
   conclusive: 0
+  endGame: 0

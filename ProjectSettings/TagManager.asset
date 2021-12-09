@@ -17,6 +17,11 @@ TagManager:
   - Rickman
   - Aglia
   - BadEndAward
+  - TalkIcon1
+  - TalkIcon2
+  - TalkIcon3
+  - TalkIcon4
+  - TalkIcon5
   layers:
   - Default
   - TransparentFX

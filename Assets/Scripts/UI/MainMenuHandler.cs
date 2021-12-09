@@ -18,7 +18,8 @@ public class MainMenuHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        stillMenuImage.SetActive(true);
+        playButton.gameObject.SetActive(true);
     }
 
     // Update is called once per frame

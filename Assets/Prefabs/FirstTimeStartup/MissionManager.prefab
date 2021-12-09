@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2635978148488651474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2635978148488651484}
+  - component: {fileID: 2635978148488651475}
+  m_Layer: 0
+  m_Name: MissionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2635978148488651484
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2635978148488651474}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 52.964897, y: -2.902136, z: -7.8065033}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2635978148488651475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2635978148488651474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716257ecc1cd73748b14eb29be9838f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missions:
+  - mission: {fileID: 11400000, guid: dc9228996d9303340aeef2f4cce05672, type: 2}
+    missionObjective: {fileID: 11400000, guid: 8e202b4724aba9e4798142df0f94eb52, type: 2}
+    missionCompleteDialogue:
+      dialogue: {fileID: 11400000, guid: 7a6ab477a5a77af438f3349f4432665f, type: 2}
+      complete: 0
+    complete: 0
+    played: 0
+  - mission: {fileID: 11400000, guid: 194943270cf859b449d5060f2f247ec1, type: 2}
+    missionObjective: {fileID: 11400000, guid: aa5161371f397e2468c7a448f99465d0, type: 2}
+    missionCompleteDialogue:
+      dialogue: {fileID: 11400000, guid: 066009096658b684b8d06eb2fccf3d2e, type: 2}
+      complete: 0
+    complete: 0
+    played: 0
+  - mission: {fileID: 11400000, guid: c7fa8ceeb6595a24b8bd027365f241e9, type: 2}
+    missionObjective: {fileID: 11400000, guid: 3e1a1011eb1cba946a6d43de9aa2bb61, type: 2}
+    missionCompleteDialogue:
+      dialogue: {fileID: 11400000, guid: 066009096658b684b8d06eb2fccf3d2e, type: 2}
+      complete: 0
+    complete: 0
+    played: 0
+  activeMission: {fileID: 11400000, guid: dc9228996d9303340aeef2f4cce05672, type: 2}
+  officeClosed: {fileID: 21300000, guid: abf3ed940cdac4367a83b3ab2f903637, type: 3}
+  intermissionActive: 0

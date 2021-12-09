@@ -16,6 +16,11 @@ MonoBehaviour:
   clue: {fileID: 0}
   analysis: {fileID: 0}
   cultistChange: 0
+  teleportLoc: 0
+  npcTagD: 
+  npcTagS: 
+  dialogueType2: 12
+  iconTag: TalkIcon3
   dialogueText:
   - name: La Sagnia Member 3
     portrait: {fileID: 21300000, guid: d776b11c2d1a4485e9a3275c2d89e10b, type: 3}
@@ -23,6 +28,8 @@ MonoBehaviour:
     dialogueText: Mamma mia! You scared me! I was praying.
     italics: 0
     bold: 0
+    sound: {fileID: 0}
+    character: 0
   options:
   - optionName: '"For what?"'
     nextDialogue: {fileID: 11400000, guid: c790a942200c2fc47910e5a5c0b30ea9, type: 2}
@@ -39,3 +46,4 @@ MonoBehaviour:
   dTransType: 1
   endMission: 0
   conclusive: 0
+  endGame: 0

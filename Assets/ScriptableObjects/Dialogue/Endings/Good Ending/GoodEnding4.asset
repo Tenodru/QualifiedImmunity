@@ -10,40 +10,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff48f6bd236661a49b9e49f061016403, type: 3}
-  m_Name: 4 Cult Member
+  m_Name: GoodEnding4
   m_EditorClassIdentifier: 
-  dialogueType: 7
+  dialogueType: 0
   clue: {fileID: 0}
   analysis: {fileID: 0}
   cultistChange: 0
   teleportLoc: 0
   npcTagD: 
   npcTagS: 
-  dialogueType2: 12
-  iconTag: TalkIcon4
   dialogueText:
-  - name: La Sagnia Member 4
-    portrait: {fileID: 21300000, guid: 5e7c3fb9ff5de404d921a25cb7797eb9, type: 3}
+  - name: Officer Sal
+    portrait: {fileID: 21300000, guid: e7eb146bf256a184f920545a77a14c6b, type: 3}
     displayImage: {fileID: 0}
-    dialogueText: Hi friend! Are you ready to greet our deity?
-    italics: 0
+    dialogueText: Aglia is able to live a much more comfortable life working as a
+      receptionist for the police station.
+    italics: 1
     bold: 0
     sound: {fileID: 0}
     character: 0
   options:
-  - optionName: '"Yes. I''m ready."'
-    nextDialogue: {fileID: 11400000, guid: a27f3d14229e2b246bfc557c072bd0dd, type: 2}
-    worldStat: 0
-    comparisonType: 0
-    threshold: 0
-  - optionName: '"I''m nervous."'
-    nextDialogue: {fileID: 11400000, guid: bc893e0caa4d6524b9be3a783576b893, type: 2}
+  - optionName: 
+    nextDialogue: {fileID: 11400000, guid: 0c4dc6b51b81b324c9df6e15d15d095d, type: 2}
     worldStat: 0
     comparisonType: 0
     threshold: 0
   newObjective: {fileID: 0}
-  pTransType: 0
-  dTransType: 1
+  pTransType: 2
+  dTransType: 0
   endMission: 0
   conclusive: 0
   endGame: 0

@@ -16,6 +16,11 @@ MonoBehaviour:
   clue: {fileID: 0}
   analysis: {fileID: 0}
   cultistChange: 0
+  teleportLoc: 0
+  npcTagD: 
+  npcTagS: 
+  dialogueType2: 12
+  iconTag: TalkIcon1
   dialogueText:
   - name: La Sagnia Member 1
     portrait: {fileID: 21300000, guid: 01cc426fea8b54256881ee415b45ff7e, type: 3}
@@ -23,6 +28,8 @@ MonoBehaviour:
     dialogueText: Heyo what's up? You excited for this ritual?
     italics: 0
     bold: 0
+    sound: {fileID: 0}
+    character: 0
   options:
   - optionName: '"What''s the ritual for?"'
     nextDialogue: {fileID: 11400000, guid: 849be40e1515d19498958298fe5eeca3, type: 2}
@@ -39,3 +46,4 @@ MonoBehaviour:
   dTransType: 1
   endMission: 0
   conclusive: 0
+  endGame: 0

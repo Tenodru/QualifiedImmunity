@@ -16,7 +16,7 @@ public class DialogueManager : MonoBehaviour
     private bool displayImageBoxActive = false;
     public Image displayImageBox;
     public Text dialogueText;
-    [HideInInspector]
+    
     public NPC currNPC;
     [HideInInspector]
     public int currDialogueText;
@@ -157,6 +157,11 @@ public class DialogueManager : MonoBehaviour
         {
             GameObject.FindGameObjectWithTag("DisappearNPC").SetActive(false);
         }
+        // Make the NPC's TalkIcon disappear.
+        if (dialogueInfo.dialogueType2 == DialogueInfo.DialogueType.DisableIcon)
+        {
+            GameObject.FindGameObjectWithTag(dialogueInfo.iconTag).SetActive(false);
+        }
 
         StartCoroutine(TypeSentence(dialogueInfo.dialogueText[currDialogueText].dialogueText));
         speakerName.text = dialogueInfo.dialogueText[currDialogueText].name;
@@ -182,6 +187,10 @@ public class DialogueManager : MonoBehaviour
             if (displayImageBoxActive)
             {
                 displayImageBox.GetComponent<Animator>().SetTrigger("Out");
+            }
+            else
+            {
+                displayImageBox.GetComponent<Animator>().SetTrigger("StayOut");
             }
             displayImageBoxActive = false;
         }
@@ -294,6 +303,10 @@ public class DialogueManager : MonoBehaviour
             if (displayImageBoxActive)
             {
                 displayImageBox.GetComponent<Animator>().SetTrigger("Out");
+            }
+            else
+            {
+                displayImageBox.GetComponent<Animator>().SetTrigger("StayOut");
             }
             displayImageBoxActive = false;
         }
@@ -444,20 +457,28 @@ public class DialogueManager : MonoBehaviour
 
         if (currDialogueInfo.endGame == Ending.BadEnd)
         {
-            SceneManager.LoadScene("EndingBad");
+            //SceneManager.LoadScene("EndingBad");
+            SceneLoader.current.LoadScene("EndingBad", true);
         }
         else if (currDialogueInfo.endGame == Ending.GoodEnd)
         {
-            SceneManager.LoadScene("EndingOk");
+            //SceneManager.LoadScene("EndingOk");
+            //StartCoroutine(Timer(x => AudioHandler.current.StopMusic(), 0f));
+            //StartCoroutine(Timer(x => AudioHandler.current.PlayMusic(AudioHandler.current.policeStationMusic), 1f));
+            SceneLoader.current.LoadScene("EndingGood", true);
         }
         else if (currDialogueInfo.endGame == Ending.TrueEnd)
         {
-            SceneManager.LoadScene("EndingGood");
+            //SceneManager.LoadScene("EndingGood");
+            //AudioHandler.current.StopMusic();
+            //StartCoroutine(Timer(x => AudioHandler.current.PlayMusic(AudioHandler.current.policeStationMusic), 1f));
+            SceneLoader.current.LoadScene("EndingOk", true);
         }
 
         if (currDialogueInfo.dialogueType == DialogueInfo.DialogueType.Credits)
         {
-            
+            TransitionPanel.current.Animate("BadgeIn");
+            StartCoroutine(Timer(x => SceneManager.LoadScene("Ending Screen"), 0.5f));
         }
 
         currDialogueText = 0;

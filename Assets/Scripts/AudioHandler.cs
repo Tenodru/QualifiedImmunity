@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioHandler : MonoBehaviour
 {
@@ -65,7 +66,10 @@ public class AudioHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            SceneManager.LoadScene("ScraperMission");
+        }
     }
 
     /// <summary>
@@ -79,7 +83,7 @@ public class AudioHandler : MonoBehaviour
 
     public void PlayMusic(AudioClip music)
     {
-        StartCoroutine(FadeVolume(0.2f, 1, false));
+        StartCoroutine(FadeVolume(0.1f, 1, false));
         musicSource.clip = music;
         musicSource.loop = true;
         musicSource.Play();

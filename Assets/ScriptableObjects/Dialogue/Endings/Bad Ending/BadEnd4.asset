@@ -28,7 +28,7 @@ MonoBehaviour:
     bold: 0
     sound: {fileID: 0}
     character: 0
-  - name: Aglia
+  - name: Email
     portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
     displayImage: {fileID: 21300000, guid: 7a5419bef972245c6b26ffef4d9dd090, type: 3}
     dialogueText: "Dear Officer Troppo, \nThank you for at least attempting to help
@@ -37,7 +37,7 @@ MonoBehaviour:
     bold: 0
     sound: {fileID: 0}
     character: 0
-  - name: Aglia
+  - name: Email
     portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
     displayImage: {fileID: 21300000, guid: 7a5419bef972245c6b26ffef4d9dd090, type: 3}
     dialogueText: I can't blame you for what happened, but I will depise you a little
@@ -46,7 +46,7 @@ MonoBehaviour:
     bold: 0
     sound: {fileID: 0}
     character: 0
-  - name: Aglia
+  - name: Email
     portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
     displayImage: {fileID: 21300000, guid: 7a5419bef972245c6b26ffef4d9dd090, type: 3}
     dialogueText: You're a nice person, even sympathizing for the cult members.
@@ -54,7 +54,7 @@ MonoBehaviour:
     bold: 0
     sound: {fileID: 0}
     character: 0
-  - name: Aglia
+  - name: Email
     portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
     displayImage: {fileID: 21300000, guid: 7a5419bef972245c6b26ffef4d9dd090, type: 3}
     dialogueText: I'm planning on running away very soon, finding a life outside
@@ -63,7 +63,7 @@ MonoBehaviour:
     bold: 0
     sound: {fileID: 0}
     character: 0
-  - name: Aglia
+  - name: Email
     portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
     displayImage: {fileID: 21300000, guid: 7a5419bef972245c6b26ffef4d9dd090, type: 3}
     dialogueText: Don will probably find me eventually, but it's a burden I will
@@ -72,18 +72,15 @@ MonoBehaviour:
     bold: 0
     sound: {fileID: 0}
     character: 0
-  - name: Aglia
-    portrait: {fileID: 21300000, guid: 21d6d56fc9c11a04ab765cf9e8e0acae, type: 3}
-    displayImage: {fileID: 21300000, guid: 7a5419bef972245c6b26ffef4d9dd090, type: 3}
-    dialogueText: "I wish you the best. \nSincerely, Aglia Pane"
-    italics: 0
-    bold: 0
-    sound: {fileID: 0}
-    character: 0
-  options: []
+  options:
+  - optionName: 
+    nextDialogue: {fileID: 11400000, guid: 03a40e2c9fcbcb44da19a4099e762a6b, type: 2}
+    worldStat: 0
+    comparisonType: 0
+    threshold: 0
   newObjective: {fileID: 0}
-  pTransType: 0
-  dTransType: 2
+  pTransType: 2
+  dTransType: 0
   endMission: 0
   conclusive: 0
   endGame: 0

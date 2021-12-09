@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 9e263283db9cc6742a34bec41a5b1841
+  - enabled: 1
     path: Assets/Scenes/BakeryMission.unity
     guid: 50ca371e46d62fb4088a6ea729573003
   - enabled: 1
@@ -17,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ScraperMission.unity
     guid: 11458570631493847b1d3336ce671afe
+  - enabled: 1
+    path: Assets/Scenes/Ending Screen.unity
+    guid: 924d556bf75314894b7047d616ed19e4
   - enabled: 1
     path: Assets/Scenes/EndingOk.unity
     guid: 5b1f336f7db6d944882e1eeaf93f1651
