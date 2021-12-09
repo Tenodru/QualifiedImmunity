@@ -465,14 +465,14 @@ public class DialogueManager : MonoBehaviour
             //SceneManager.LoadScene("EndingOk");
             //StartCoroutine(Timer(x => AudioHandler.current.StopMusic(), 0f));
             //StartCoroutine(Timer(x => AudioHandler.current.PlayMusic(AudioHandler.current.policeStationMusic), 1f));
-            SceneLoader.current.LoadScene("EndingGood", true);
+            SceneLoader.current.LoadScene("EndingOk", true);
         }
         else if (currDialogueInfo.endGame == Ending.TrueEnd)
         {
             //SceneManager.LoadScene("EndingGood");
             //AudioHandler.current.StopMusic();
             //StartCoroutine(Timer(x => AudioHandler.current.PlayMusic(AudioHandler.current.policeStationMusic), 1f));
-            SceneLoader.current.LoadScene("EndingOk", true);
+            SceneLoader.current.LoadScene("EndingGood", true);
         }
 
         if (currDialogueInfo.dialogueType == DialogueInfo.DialogueType.Credits)

@@ -63,15 +63,6 @@ public class AudioHandler : MonoBehaviour
         PlayMusic(policeStationMusic);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            SceneManager.LoadScene("ScraperMission");
-        }
-    }
-
     /// <summary>
     /// Plays the specified sound effect as a oneshot.
     /// </summary>
